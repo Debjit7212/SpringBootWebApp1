@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: springboot-webapp
+    env: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/SpringBootWebApp1-1.0.0.jar
+    plan: free
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:postgresql://localhost:5432/postgres
+      - key: SPRING_DATASOURCE_USERNAME
+        value: postgres
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: 7319
+      - key: SPRING_MAIL_HOST
+        value: smtp.gmail.com
+      - key: SPRING_MAIL_PORT
+        value: 587
+      - key: SPRING_MAIL_USERNAME
+        value: debjitpaul55555@gmail.com
+      - key: SPRING_MAIL_PASSWORD
+        value: yxarckxfiozdxvym
