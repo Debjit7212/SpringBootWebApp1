@@ -9,9 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.springprograming</groupId>
-	<artifactId>SpringBootWebApp1</artifactId>
-	<version>1.0</version>
-	<name>SpringBootWebApp1</name>
+<artifactId>SpringBootWebApp1</artifactId>
+<version>1.0</version>
+<packaging>war</packaging>
+<name>SpringBootWebApp1</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -44,7 +45,7 @@
                 <version>42.7.2</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
-<!-- ✅ JSTL API for Jakarta EE (Spring Boot 3+) -->
+
 <dependency>
     <groupId>jakarta.servlet.jsp.jstl</groupId>
     <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
@@ -59,7 +60,7 @@
 
 
 		<!-- tomcat-jasper -->
-<!-- ✅ Use this for JSP rendering -->
+
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-jasper</artifactId>
